@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-image: url('../Projt2/img/Flor.jpg'); 
+   width: 100vw;
+   height: 100%;
+   background-size: cover;
+
+   background-repeat: no-repeat;
+   
+}
+.logo img{
+    display: flex;
+    width:80px;
+    height: 80px;
+    margin-top: -33%;
+    
+}
+#title{
+    flex-direction: column;
+    font-size: 30px;
+    line-height: 75px;
+    margin-left: 20px;
+    padding-top: 50px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing:3px;
+    color: darkgreen;
+
+}
+
+ header{
+    
+    border: 1px solid bisque;
+    width: 100%;
+    height: 70px; 
+    /*display: inline-block;*/
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(96, 231, 96);
+    padding: 20px 20px 0 10px;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row; /*Defina a direção dos itens flexíveis dentro do elemento, o valor row faz que os item fique na horizontal*/
+    margin-top: 50px;
+  
+}
+ /*.imagem img {
+    width: 500px;
+    height: 350px;
+}
+*/
+aside {
+    margin-top: 50px;
+
+}
+.conteudo p{
+    margin-left: 10px;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+.imagem img{
+
+    width: 35vw;/* deixar a imagem responsiva*/
+    /* height: 350px; */
+    margin-right: 20px;
+    margin-top: 80px;
+    /*border-radius: 50%;*/
+    /*border: 3px solid white;*/
+}
+
+#Importancia {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 18px;
+    color: darkgreen;
+}
+#sustentavel{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 18px;
+    color: darkgreen;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin: 7px;
+    margin-left: 10px;
+}
+#impresa{
+    margin-top: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    color: darkgreen;
+}
+
+
+.conteudo3 h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: darkgreen;
+    margin-left: 10px;
+    margin-top: 18px;
+
+
+}
+figure img{
+    width: 40vw;
+    /* height: 320px; */
+    margin: 30px 35px 0px 450px; /* Para baixo,*/
+
+}
+
+figcaption{
+    margin-left: 600px;
+    margin-bottom: 50px;
+}
+
+.rodape ul{
+    display: flex; /* Define que todos os item da lista não ordenada sera alinhada de forma flexivel   */
+    display: inline-block; /* a linha os item da lista para o centro*/
+    border: 1px; /* criando uma borda solida 1 px */
+    width: 100%; /* largura de 100%*/
+    height: 140px; /*altura de 70px;*/
+    background-color: rgb(96, 231, 96);
+
+
+}
+.rodape ul li{
+    list-style-type: none; /*  excluir os marcadores de cada item da lista */
+    font-size: 17px; /* tamanho da fonte ul li*/
+    margin-top:  30px;
+    text-align: center;
+    line-height: 2px;
+
+    
+    
+    
+}
+ .rodape p {
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.dicas  h1,ol, li{
+    font-size: 18px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+    list-style-type: none;
+}
+
+
+#preserva{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: darkgreen;
+    margin-left: 5px;
+
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block; /* aplicar items na horizontal*/
+
+}
+
+nav ul li a{
+    padding: 10px 20px; /* aplicar espaço de posição da letra  */
+    text-decoration: none; /* Retirar a linha do menu*/
+    font-size: 20px; /* tamanho da fonte da letra*/
+    color: black;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+nav ul li a:hover{
+    background-color: rgb(7, 145, 7)
+}
